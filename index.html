@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Question Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h1>Quiz</h1>
+
+    <div id="question-box">
+        <p id="question"></p>
+
+        <label><input type="radio" name="option" value="a"> <span id="optA"></span></label><br>
+        <label><input type="radio" name="option" value="b"> <span id="optB"></span></label><br>
+        <label><input type="radio" name="option" value="c"> <span id="optC"></span></label><br>
+    </div>
+
+    <button onclick="nextQuestion()">Next</button>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
